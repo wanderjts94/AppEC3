@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/formularioFragment">
+    <fragment
+        android:id="@+id/formularioFragment"
+        android:name="pe.edu.idat.appec3.FormularioFragment"
+        android:label="@string/Formulario"
+        tools:layout="@layout/fragment_formulario" />
+    <fragment
+        android:id="@+id/listadoFragment"
+        android:name="pe.edu.idat.appec3.ListadoFragment"
+        android:label="@string/Listado"
+        tools:layout="@layout/fragment_listado" />
+    <fragment
+        android:id="@+id/resptFormFragment"
+        android:name="pe.edu.idat.appec3.ResptFormFragment"
+        android:label="@string/respuesta"
+        tools:layout="@layout/fragment_respt_form" />
+</navigation>
