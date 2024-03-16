@@ -16,4 +16,5 @@
     <string name="Listado">Listado</string>
     <string name="respuesta">Respuesta</string>
     <string name="textAp">App EC3</string>
+    <string name="MostrarContrasena">Mostrar clave</string>
 </resources>
