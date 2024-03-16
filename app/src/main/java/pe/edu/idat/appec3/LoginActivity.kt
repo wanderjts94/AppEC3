@@ -19,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
             val nombreGrupo = binding.etNombre.text.toString()
             val contrasena = binding.etPassword.text.toString()
 
-           
+
             if (nombreGrupo == "Lewis-Group" && contrasena == "SYS123") {
 
                 redireccionamain()
