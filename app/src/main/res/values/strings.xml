@@ -17,4 +17,6 @@
     <string name="respuesta">Respuesta</string>
     <string name="textAp">App EC3</string>
     <string name="MostrarContrasena">Mostras Clave</string>
+    <string name="etfinicio">Fecha Inicio</string>
+    <string name="etfechfin">Fecha Fin</string>
 </resources>
