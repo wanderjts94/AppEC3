@@ -9,11 +9,15 @@
         android:name="pe.edu.idat.appec3.FormularioFragment"
         android:label="@string/Formulario"
         tools:layout="@layout/fragment_formulario" />
+
     <fragment
         android:id="@+id/listadoFragment"
         android:name="pe.edu.idat.appec3.ListadoFragment"
         android:label="@string/Listado"
         tools:layout="@layout/fragment_listado" />
+    <action
+        android:id="@+id/action_formularioFragment_to_resptFormFragment"
+        app:destination="@id/resptFormFragment" />
     <fragment
         android:id="@+id/resptFormFragment"
         android:name="pe.edu.idat.appec3.ResptFormFragment"
