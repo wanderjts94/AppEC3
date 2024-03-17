@@ -53,8 +53,8 @@ class FormularioFragment : Fragment(), View.OnClickListener {
 
     private fun capturarDatos() {
         val distrito = binding.etDistrito.text.toString()
-        val fechaInicio = binding.etFechaInicio.text.toString()
-        val fechaFin = binding.etFechaFin.text.toString()
+        val fechaInicio = binding.etInit.text.toString()
+        val fechaFin = binding.etFi.text.toString()
 
         ListaDatos.clear()
         ListaDatos.add(distrito)
@@ -69,8 +69,8 @@ class FormularioFragment : Fragment(), View.OnClickListener {
 
     private fun validarFormulario(): Boolean {
         val distrito = binding.etDistrito.text.toString()
-        val fechaInicio = binding.etFechaInicio.text.toString()
-        val fechaFin = binding.etFechaFin.text.toString()
+        val fechaInicio = binding.etInit.text.toString()
+        val fechaFin = binding.etFi.text.toString()
 
         return distrito.isNotEmpty() && fechaInicio.isNotEmpty() && fechaFin.isNotEmpty()
     }
